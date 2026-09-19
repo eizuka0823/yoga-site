@@ -42,6 +42,9 @@ import "./globals.css";
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ja">
+      <head>
+        <meta name="google-site-verification" content="eW2cC_uLp0pkS3Z9Go619ALjNKTBGLJGNJSZ_5z-j_o" />
+      </head>
       <body className="min-h-screen text-gray-900 relative antialiased">
         
         {/* ② bodyのすぐ下にGoogleアナリティクスを配置 */}
