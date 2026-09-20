@@ -9,8 +9,9 @@ import { Online } from '@/app/components/Online';
 import { Blog } from '@/app/components/Blog';
 import { Contact } from '@/app/components/Contact';
 import { InstructorTraining } from '@/app/components/InstructorTraining';
+import type { Metadata } from 'next'
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'マユヨガ｜高崎ヨガ教室',
   // description: 'ここにGoogle検索のタイトルの下に表示される説明文（ディスクリプション）を書く。',
 }
