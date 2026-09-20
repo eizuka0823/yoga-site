@@ -10,6 +10,11 @@ import { Blog } from '@/app/components/Blog';
 import { Contact } from '@/app/components/Contact';
 import { InstructorTraining } from '@/app/components/InstructorTraining';
 
+export const metadata = {
+  title: 'マユヨガ｜高崎ヨガ教室',
+  // description: 'ここにGoogle検索のタイトルの下に表示される説明文（ディスクリプション）を書く。',
+}
+
 export default function Home() {
   return (
     <>
